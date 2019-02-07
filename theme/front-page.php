@@ -9,7 +9,7 @@
 	<?php
 		get_template_part( './elements/fp-shibheader' );
 		get_template_part( './elements/fp-welcome-mess' );
-		// get_template_part( 'elements/cta--jiko-lp' );
+		get_template_part( 'elements/cta--jiko-lp' );
 	?>
 
 
@@ -23,7 +23,7 @@
 				<div class="row align-middle">
 					<h3 class="column small-12">信頼できるクラウドの活用</h3>
 					<div class="column small-12 medium-6">
-						<img class="thumbnail" src="//www.law-yamashita.com/wp-content/themes/ym-home/assets/img/lp/kure/6.jpg" alt="山下江法律事務所東京虎ノ門オフィスはクラウドを活用することで豊富な経験・多数の解決事例を共有し、どこの事務所でも同一のサ―ビスを提供できます。">
+						<img class="thumbnail" src="//www.law-yamashita.com/wp-content/themes/ym-home/assets/img/lp/kure/6.jpg" alt="山下江法律事務所福山支部はクラウドを活用することで豊富な経験・多数の解決事例を共有し、どこの事務所でも同一のサ―ビスを提供できます。">
 					</div>
 					<div class="column small-12 medium-6">
 						<p>広島最大級の弁護士事務所である山下江法律事務所では、その叡智・豊富な経験・多数の解決事例を共有し、常に適切な解決を迅速に行うことが可能です。</p>
@@ -33,16 +33,16 @@
 				<div class="row align-middle">
 					<h3 class="column small-12">プライバシー保護環境</h3>
 					<div class="column small-12 medium-6">
-						<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/tk--002.jpg'; ?>" alt="山下江法律事務所東京虎ノ門オフィスもプライバシーポリシーや行動指針に基づいた「気軽に相談できる場」を創造しました。">
+						<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/privacy.jpg'; ?>" alt="山下江法律事務所福山支部もプライバシーポリシーや行動指針に基づいた「気軽に相談できる場」を創造しました。">
 					</div>
 					<div class="column small-12 medium-6">
-						<p>新しくオープンした東京虎ノ門オフィスでも、山下江法律事務所の行動指針やプライバシーポリシーに基づいた「気軽に相談できる場」を創造しました。</p>
+						<p>新しくオープンした福山支部でも、山下江法律事務所の行動指針やプライバシーポリシーに基づいた「気軽に相談できる場」を創造しました。</p>
 					</div>
 				</div>
 				<div class="row align-middle">
 					<h3 class="column small-12">安心して相談できる空間</h3>
 					<div class="column small-12 medium-6">
-						<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/tk-004.jpg'; ?>" alt="山下江法律事務所東京虎ノ門オフィスでは居心地の良い空間を演出しています。">
+						<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/2.jpg'; ?>" alt="山下江法律事務所福山支部では居心地の良い空間を演出しています。">
 					</div>
 					<div class="column small-12 medium-6">
 						<p>一時間程度の法律相談でも、知らないことや難しい用語がたくさん出てきて疲れてしまいます。気軽に、安心できる法律相談のために、安心感を与える照明やインテリア家具により、居心地の良い空間を演出しております。</p>
@@ -52,12 +52,13 @@
 
 
 			<section class="contents--section contents--section__images">
-				<h2 id="access">東京虎ノ門オフィスへのアクセス</h2>
+				<h2 id="access">福山支部へのアクセス</h2>
 				<div class="row">
 					<div class="column">
-						<p class="text-center"><img src="//www.law-yamashita.com/wp-content/themes/ym-home/assets/img/access/map--toranomon--v3.png" alt="山下江法律事務所東京虎ノ門オフィスまでのアクセス方法"></p>
-						<p class="text-center"><a class="button link-external" href="https://goo.gl/maps/91boNSyxVZm" title="Googleマップで見る" target="_blank" rel="nofollow">Googleマップで見る</a>　<a href="https://www.law-yamashita.com/wp-content/themes/ym-home/assets/img/access/map--toranomon.pdf" class="button">印刷用PDF</a></p>
-						<p>〒105-0001　東京都港区虎ノ門一丁目5-8 オフィス虎ノ門１ビル803号<br>TEL： 03-6632-5355　FAX： 03-6632-5356<br>営業時間：　9：00～18：00</p>
+						<p class="text-center"><img src="//www.law-yamashita.com/wp-content/themes/ym-home/assets/img/access/map--fukuyama.png" alt="山下江法律事務所福山支部までのアクセス方法"></p>
+						<p class="text-center"><a class="button link-external" href="https://goo.gl/maps/BD1h4PY4Fmr" title="Googleマップで見る" target="_blank" rel="nofollow">Googleマップで見る</a>　<a href="https://www.law-yamashita.com/downloads/access/print--fukuyama.pdf" class="button" target="_blank">印刷用PDF</a></p>
+						<p>〒720-0067　広島県福山市西町2-10-1　福山商工会議所ビル５階<br>TEL： 084-993-9041　FAX： 084-993-9042<br>営業時間：　9：00～18：00</p>
+						<p><b>＜福山商工会議所ビル有料駐車場の料金＞</b><br>初めの30分無料 1時間300円<br>その後30分ごと100円</p>
 					</div>
 				</div>
 			</section>
@@ -65,69 +66,26 @@
 
 			<section class="contents--section contents--section__sozoku">
 				<div class="contents--section contents--section__pickup">
-					<div class="row text-center">
-						<div class="pickup--background column small-12 medium-6">
-							<h3><img src="//hiroshima-sozoku.com/wp-content/themes/ym--sozoku/assets/img/TtlSDTop2_1.jpg" alt="相続の基礎知識"></h3>
-							<ul class="pickup--list text-left">
-								<li><a href="<?php echo get_page_link( '6309' ); ?>"><?php echo get_the_title( '6309' ); ?></a></li>
-								<li><a href="<?php echo get_page_link( '6311' ); ?>"><?php echo get_the_title( '6311' ); ?></a></li>
-								<li><a href="<?php echo get_page_link( '6313' ); ?>"><?php echo get_the_title( '6313' ); ?></a></li>
-								<li><a href="<?php echo get_page_link( '6315' ); ?>"><?php echo get_the_title( '6315' ); ?></a></li>
-								<li><a href="<?php echo get_page_link( '6317' ); ?>"><?php echo get_the_title( '6317' ); ?></a></li>
-							</ul>
-						</div>
-						<div class="pickup--background column small-12 medium-6">
-							<h3><img src="//hiroshima-sozoku.com/wp-content/themes/ym--sozoku/assets/img/TtlSDTop2_2.jpg" alt="遺産分割協議"></h3>
-							<ul class="pickup--list text-left">
-								<li><a href="<?php echo get_page_link( '6362' ); ?>"><?php echo get_the_title( '6362' ); ?></a></li>
-								<li><a href="<?php echo get_page_link( '6368' ); ?>"><?php echo get_the_title( '6368' ); ?></a></li>
-								<li><a href="<?php echo get_page_link( '6317' ); ?>"><?php echo get_the_title( '6317' ); ?></a></li>
-								<li><a href="<?php echo get_page_link( '6315' ); ?>"><?php echo get_the_title( '6315' ); ?></a></li>
-							</ul>
-						</div>
-						<div class="pickup--background column small-12 medium-6">
-							<h3><img src="//hiroshima-sozoku.com/wp-content/themes/ym--sozoku/assets/img/TtlSDTop2_3.jpg" alt="遺留分・寄与分"></h3>
-							<ul class="pickup--list text-left">
-								<li><a href="<?php echo get_page_link( '6372' ); ?>"><?php echo get_the_title( '6372' ); ?></a></li>
-								<li><a href="<?php echo get_page_link( '6376' ); ?>"><?php echo get_the_title( '6376' ); ?></a></li>
-								<li><a href="<?php echo get_page_link( '6374' ); ?>"><?php echo get_the_title( '6374' ); ?></a></li>
-								<li><a href="<?php echo get_page_link( '6378' ); ?>"><?php echo get_the_title( '6378' ); ?></a></li>
-								<li><a href="<?php echo get_page_link( '6331' ); ?>"><?php echo get_the_title( '6331' ); ?></a></li>
-							</ul>
-						</div>
-						<div class="pickup--background column small-12 medium-6">
-							<h3><img src="//hiroshima-sozoku.com/wp-content/themes/ym--sozoku/assets/img/TtlSDTop2_4.jpg" alt="遺言書"></h3>
-							<ul class="pickup--list text-left">
-								<li><a href="<?php echo get_page_link( '6380' ); ?>"><?php echo get_the_title( '6380' ); ?></a></li>
-								<li><a href="<?php echo get_page_link( '6387' ); ?>"><?php echo get_the_title( '6387' ); ?></a></li>
-								<li><a href="<?php echo get_page_link( '6385' ); ?>"><?php echo get_the_title( '6385' ); ?></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="row">
-						<div class="column small-4 text-center"><a href="<?php echo get_page_link( '6070' ); ?>"><img src="//hiroshima-sozoku.com/wp-content/themes/ym--sozoku/assets/img/ImgTop2.jpg';?>" alt="<?php echo get_the_title( '6070' ); ?>"></a></div>
-						<div class="column small-4 text-center"><a href="<?php echo get_page_link( '6256' ); ?>"><img src="//hiroshima-sozoku.com/wp-content/themes/ym--sozoku/assets/img/ImgTop3.jpg';?>" alt="<?php echo get_the_title( '6256' ); ?>"></a></div>
-						<div class="column small-4 text-center"><a href="<?php echo get_page_link( '5492' ); ?>"><img src="//hiroshima-sozoku.com/wp-content/themes/ym--sozoku/assets/img/ImgTop4.jpg';?>" alt="<?php echo get_the_title( '5492' ); ?>"></a></div>
-					</div>
+							<h2>多数の実績とお客様の声に裏付けされた<br><strong class="underline">交通事故に強い弁護士</strong></h2>
+							<h3>地元広島最大級の解決実績</h3>
+							<p>平成２３年以来の当事務所での交通事故案件での実績は、<u>相談数2,325</u>件、<u>受任数1,045</u>件（平成２９年末現在）です。地元広島における法律事務所で、<strong class="underline">これだけ多数の相談件数、受任件数の実績があるのは当事務所のみ</strong>と思われます。当事務所における交通事故案件への取組に対するみなさまからの<b>信頼の結果</b>と自負しております。</p>
+							<h3>お客様のアンケートで満足度94.6％の高評価</h3>
+							<p>お客様の感謝の声の多さ。当事務所では、ご相談やご依頼が終わった後に、お客様から満足度や改善点を聞かせていただくためにアンケートを行っております。</p>
+							<p>その結果、94.6%のお客様にご満足いただいていることが分かりました。お客様の声ページには、その生の声が直筆メッセージで掲載されています。</p>
+							<p class="text-right"><a href="<?php echo get_page_link( '5485' ); ?>" class="button">お客様の声を見る</a></p>
+							<h3>後遺障害など医学的研修会の実施</h3>
+							<p>交通事故は多くの場合、身体的傷害を伴うものです。その傷害の回復（治療）をどのようにするのか、その傷害がもたらす後遺障害はどうなるのかは、<u>被害者にとって一番の問題</u>と思います。被害者のそうした悩みに答え、最高の解決を得られるようにするため、私たちは<strong class="underline">医師による医学的知識の習得・研修</strong>も行っております。</p>
+							<p class="text-right"><a href="<?php echo get_page_link( '' ); ?>" class="button">交通事故（医療）研修の様子</a></p>
+							<h3>交通事故チームによる専門性強化</h3>
+							<p>後遺障害の認定や事故の相手方の保険会社との交渉には、<u>高い専門性と経験が要求</u>されます。当事務所における<strong class="underline">広島最大級の解決事例データを集積・分析し、事務所全体で共有化し、依頼者に最も有利な解決を実現するために、弁護士５名・秘書５名（平成２７年末現在）からなる交通事故チームを結成</strong>しています。</p>
+							<p class="text-right"><a href="<?php echo get_page_link( '' ); ?>" class="button">交通事故チームリーダー弁護士からメッセージ</a></p>
+							<h3>事故直後から治療・解決までサポート</h3>
+							<p><strong class="underline">交通事故に遭われた場合は、警察やご自身の加入する保険会社に連絡するとともに、直ちに弁護士に連絡</strong>していただきたいと思います。あなたは一人ではありません。私たち弁護士が、治療から解決まで寄り添います。後遺障害の認定を受ける前に弁護士に相談していただければ、認定に当たってのアドバイスを行い、場合によっては病院にも同行します。一旦認定された後遺障害を覆すのは難しい場合がありますので、その前にご相談ください。</p>
+							<h3>初回相談・着手金が無料</h3>
+							<p>当事務所では、被害者救済のために、<strong class="underline">交通事故に遭われた方の初回相談料は無料。着手金も無料</strong>としております（弁護士費用特約により保険会社から支払われる場合は別）。ご期待に応えられるようにするために、全力でご相談に応じます。ご依頼を受けた場合は、全力で被害者救済のために奮闘します。</p>
 				</div>
 
-				<p class="text-center contents--section_button" style="margin-top: 2rem"><a href="<?php echo get_page_link( '6295' ); ?>" class="button large"><?php NID_SVG::icon( 'list', array() ); ?>相続の基礎知識の一覧ページ</a></p>
-
-
-				<div class="contents--section contents--section__point">
-					<h2>山下江法律事務所の相続の３つのポイント</h2>
-					<h3>メリット1 相続手続の専門家が直接お話をお伺いします。</h3>
-					<p>当事務所では、相続手続きのご相談において、専門的な知識を備えたNPO法人相続アドバイザー協議会認定の相続アドバイザー・上級アドバイザーが承ります。</p>
-					<h3>メリット2  相続手続から、相続争いまで、すべてに対応できます。</h3>
-					<p>「争 いはないけど、複雑な相続手続をどう進めて良いか分からない」「自分がしなければならない手続きがどれか分からない」という相談から、「親族ともめてし まったので解決したい」という相談まで、相続に関することなら何でも対応することができます。所内には弁護士の他、相続アドバイザー・上級アドバイザーが 在籍しており、税理士、司法書士、行政書士などとも連携をしていますので、速やかに相続手続きも行うことができます。</p>
-					<h3>メリット3 広島最大級の法律事務所</h3>
-					<p>当事務所は士業事務所に良く見られる個人事務所ではなく、所員総勢38名の広島最大級の法律事務所です。総合力と機動力は地域ナンバーワンと自負しております。実績多数の当法律事務所に、是非ご相談ください。</p>
-					<h3>相続アドバイザー・上級アドバイザーによる相談も、無料で承っています</h3>
-					<p>・弁護士に相談するのは敷居が高い<br>・ちょっとだけ教えてもらいたいことがある<br>と思われる方は、相続アドバイザーにお気軽にお電話ください。</p>
-
-					<p class="text-center"><a href="https://www.law-yamashita.com/reserve" target="_blank"><img src="//tokyo.law-yamashita.com/wp-content/themes/ym--tokyo/assets/img/banner-01--tokyo.png" alt="東京の相続・遺言相談は虎ノ門駅すぐの山下江法律事務所へ"></a></p>
-				</div>
-			</section>
+				<p class="text-center contents--section_button" style="margin-top: 2rem"><a href="<?php echo get_page_link( '' ); ?>" class="button large"><?php NID_SVG::icon( 'list', array() ); ?>交通事故の基礎知識</a></p>
 
 
 			<section class="contents--section contents--section__service">

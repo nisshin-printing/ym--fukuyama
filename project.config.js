@@ -20,13 +20,13 @@
  * }
  */
 module.exports = {
-    name: 'ym--tokyo',
-    prettyName: 'ym--tokyo',
-    themeURI: 'http://shib.law-yamashita.local/',
-    description: '支部サイト用WordPressテーマ統一デザイン案',
-    version: '0.1.0',
-    author: 'Kazuki Fukuda <info@dtdsh.com>',
-    authorURI: 'https://dtdsh.com/',
-    license: 'GPLv2 or later',
-    tags: ['山下江法律事務所', 'Yamashita Ko Law Office', 'satellite', '専門サイト']
+		name: 'ym--fukuyama',
+		prettyName: 'ym--fukuyama',
+		themeURI: 'http://shib.law-yamashita.local/',
+		description: '支部サイト用WordPressテーマ統一デザイン案',
+		version: '0.1.0',
+		author: 'Kazuki Fukuda <info@dtdsh.com>',
+		authorURI: 'https://dtdsh.com/',
+		license: 'GPLv2 or later',
+		tags: ['山下江法律事務所', 'Yamashita Ko Law Office', 'satellite', '専門サイト']
 };

@@ -51,7 +51,7 @@
 			</div>
 			<div class="column small-12 medium-6 copy--top text-center">
 				<h1 class="copy--title">山下江法律事務所
-					<br>東京虎ノ門オフィス</h1>
+					<br>福山支部</h1>
 					<div class="copy--desc">
 					<p>相談件数20,000件以上。
 						<small>※</small>

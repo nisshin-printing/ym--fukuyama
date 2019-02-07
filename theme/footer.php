@@ -31,18 +31,18 @@
 			</div>
 		</div>
 		<div class="column large-4 medium-12">
-			<p class="footer--title"><?php NID_SVG::icon( 'office', array( 'class' => 'footer--title-icon' ) ); ?>東京虎ノ門オフィスの情報</p>
+			<p class="footer--title"><?php NID_SVG::icon( 'office', array( 'class' => 'footer--title-icon' ) ); ?>福山支部の情報</p>
 			<p class="footer--title -no-border"><?php NID_SVG::icon( 'map-pin', array( 'class' => 'footer--title-icon' ) ); ?>住所</p>
-			<p><a href="https://goo.gl/maps/91boNSyxVZm" title="Googleマップを見る" target="_blank">〒105-0001　東京都港区虎ノ門一丁目5-8<br>オフィス虎ノ門1ビル803</a></p>
+			<p><a href="https://goo.gl/maps/BD1h4PY4Fmr" title="Googleマップを見る" target="_blank">〒720-0067 広島県福山市西町2-10-1<br>福山商工会議所ビル５階</a></p>
 			<p class="footer--title -no-border"><?php NID_SVG::icon( 'phone', array( 'class' => 'footer--title-icon' ) ); ?>電話番号</p>
-			<p><a href="tel:0366325355" title="電話する">03-6632-5355</a></p>
+			<p><a href="tel:0849939041" title="電話する">084-993-9041</a></p>
 			<p class="footer--title -no-border"><?php NID_SVG::icon( 'fax', array( 'class' => 'footer--title-icon' ) ); ?>FAX番号</p>
-			<p>03-6632-5356</p>
+			<p>084-993-9042</p>
 			<p class="footer--title -no-border"><?php NID_SVG::icon( 'mail', array( 'class' => 'footer--title-icon' ) ); ?>メール</p>
-			<p><a href="https://www.law-yamashita.com/contact">info@law-yamashita.com</a></p>
+			<p><a href="https://www.law-yamashita.com/form">info@law-yamashita.com</a></p>
 		</div>
 	</div>
-	<p class="footer--copy">© <span itemprop="copyrightYear"><?php echo date( 'Y' ); ?></span> <?php bloginfo( 'name' ); ?>【東京弁護士会所属】</p>
+	<p class="footer--copy">© <span itemprop="copyrightYear"><?php echo date( 'Y' ); ?></span> <?php bloginfo( 'name' ); ?>【広島弁護士会所属】</p>
 	<div id="js--button-fixed" class="button--fixed"><a href="#top" title="<?php bloginfo( 'name' ); ?>" class="button--circle bg-lime"><?php NID_SVG::icon( 'arrow-up', array( 'class' => 'footer--social__icon' ), 'ページ上部へ' ); ?></a></div>
 </footer>
 <?php get_template_part( './elements/footer-menu' ); ?>

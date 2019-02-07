@@ -21,7 +21,7 @@ if ( is_archive() || is_single() || is_home() ) {
 		<div class="sidenav--overlay js--sidenav--button"></div>
 		<div class="column contents">
 			<?php
-				$isSozoku = false;
+				$isJiko = false;
 				if ( have_posts() ) {
 					if ( is_page( 'service' ) ) {
 						$page_id = '5';
@@ -85,196 +85,203 @@ if ( is_archive() || is_single() || is_home() ) {
 					/**
 					 * 相続の基礎知識
 					 */
-					} else if ( is_page( '6295' ) ) {
-						$isSozoku = true;
-						$page_id = '6373';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6297' ) ) {
-						$isSozoku = true;
-						$page_id = '6560';
+					} else if ( is_page( '6347' ) ) {
+						$isJiko = true;
+						$page_id = '6073';
 						include locate_template( './templates/page.php' );
 					} else if ( is_page( '6300' ) ) {
-						$isSozoku = true;
-						$page_id = '6567';
+						$isJiko = true;
+						$page_id = '6036';
 						include locate_template( './templates/page.php' );
 					} else if ( is_page( '6302' ) ) {
-						$isSozoku = true;
-						$page_id = '6713';
+						$isJiko = true;
+						$page_id = '5972';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6305' ) ) {
-						$isSozoku = true;
-						$page_id = '6562';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6307' ) ) {
-						$isSozoku = true;
-						$page_id = '6414';
+					} else if ( is_page( '5979' ) ) {
+						$isJiko = true;
+						$page_id = '6307';
 						include locate_template( './templates/page.php' );
 					} else if ( is_page( '6309' ) ) {
-						$isSozoku = true;
-						$page_id = '6417';
+						$isJiko = true;
+						$page_id = '5981';
 						include locate_template( './templates/page.php' );
 					} else if ( is_page( '6311' ) ) {
-						$isSozoku = true;
-						$page_id = '6419';
+						$isJiko = true;
+						$page_id = '5983';
 						include locate_template( './templates/page.php' );
 					} else if ( is_page( '6313' ) ) {
-						$isSozoku = true;
-						$page_id = '6718';
+						$isJiko = true;
+						$page_id = '5985';
 						include locate_template( './templates/page.php' );
 					} else if ( is_page( '6315' ) ) {
-						$isSozoku = true;
-						$page_id = '6427';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6317' ) ) {
-						$isSozoku = true;
-						$page_id = '6422';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6319' ) ) {
-						$isSozoku = true;
-						$page_id = '6409';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6321' ) ) {
-						$isSozoku = true;
-						$page_id = '6539';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6323' ) ) {
-						$isSozoku = true;
-						$page_id = '6541';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6325' ) ) {
-						$isSozoku = true;
-						$page_id = '6543';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6327' ) ) {
-						$isSozoku = true;
-						$page_id = '6547';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6329' ) ) {
-						$isSozoku = true;
-						$page_id = '6545';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6331' ) ) {
-						$isSozoku = true;
-						$page_id = '6484';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6333' ) ) {
-						$isSozoku = true;
-						$page_id = '6488';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6335' ) ) {
-						$isSozoku = true;
-						$page_id = '6486';
+						$isJiko = true;
+						$page_id = '5987';
 						include locate_template( './templates/page.php' );
 					} else if ( is_page( '6337' ) ) {
-						$isSozoku = true;
-						$page_id = '6717';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6339' ) ) {
-						$isSozoku = true;
-						$page_id = '6446';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6341' ) ) {
-						$isSozoku = true;
-						$page_id = '6438';
+						$isJiko = true;
+						$page_id = '6006';
 						include locate_template( './templates/page.php' );
 					} else if ( is_page( '6343' ) ) {
-						$isSozoku = true;
-						$page_id = '6440';
+						$isJiko = true;
+						$page_id = '5994';
+						include locate_template( './templates/page.php' );
+					} else if ( is_page( '6341' ) ) {
+						$isJiko = true;
+						$page_id = '5996';
 						include locate_template( './templates/page.php' );
 					} else if ( is_page( '6345' ) ) {
-						$isSozoku = true;
-						$page_id = '6496';
+						$isJiko = true;
+						$page_id = '6034';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6348' ) ) {
-						$isSozoku = true;
-						$page_id = '6500';
+					} else if ( is_page( '6339' ) ) {
+						$isJiko = true;
+						$page_id = '5998';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6350' ) ) {
-						$isSozoku = true;
-						$page_id = '6498';
+					} else if ( is_page( '6317' ) ) {
+						$isJiko = true;
+						$page_id = '6012';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6352' ) ) {
-						$isSozoku = true;
-						$page_id = '6593';
+					} else if ( is_page( '6325' ) ) {
+						$isJiko = true;
+						$page_id = '6018';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6354' ) ) {
-						$isSozoku = true;
-						$page_id = '6507';
+					} else if ( is_page( '6327' ) ) {
+						$isJiko = true;
+						$page_id = '6022';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6356' ) ) {
-						$isSozoku = true;
-						$page_id = '6514';
+					} else if ( is_page( '6333' ) ) {
+						$isJiko = true;
+						$page_id = '6030';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6358' ) ) {
-						$isSozoku = true;
-						$page_id = '6511';
+					} else if ( is_page( '6329' ) ) {
+						$isJiko = true;
+						$page_id = '6025';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6360' ) ) {
-						$isSozoku = true;
-						$page_id = '6509';
+					} else if ( is_page( '6331' ) ) {
+						$isJiko = true;
+						$page_id = '6028';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6362' ) ) {
-						$isSozoku = true;
-						$page_id = '6436';
+					} else if ( is_page( '6323' ) ) {
+						$isJiko = true;
+						$page_id = '6020';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6364' ) ) {
-						$isSozoku = true;
-						$page_id = '6460';
+					} else if ( is_page( '6335' ) ) {
+						$isJiko = true;
+						$page_id = '6032';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6366' ) ) {
-						$isSozoku = true;
-						$page_id = '6454';
+					} else if ( is_page( '6319' ) ) {
+						$isJiko = true;
+						$page_id = '6014';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6368' ) ) {
-						$isSozoku = true;
-						$page_id = '6458';
+					} else if ( is_page( '6321' ) ) {
+						$isJiko = true;
+						$page_id = '6016';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6370' ) ) {
-						$isSozoku = true;
-						$page_id = '6456';
+					} else if ( is_page( '6307' ) ) {
+						$isJiko = true;
+						$page_id = '5979';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6372' ) ) {
-						$isSozoku = true;
-						$page_id = '6467';
+					} else if ( is_page( '6309' ) ) {
+						$isJiko = true;
+						$page_id = '5981';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6374' ) ) {
-						$isSozoku = true;
-						$page_id = '6473';
+					} else if ( is_page( '6311' ) ) {
+						$isJiko = true;
+						$page_id = '5983';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6376' ) ) {
-						$isSozoku = true;
-						$page_id = '6469';
+					} else if ( is_page( '6313' ) ) {
+						$isJiko = true;
+						$page_id = '5985';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6378' ) ) {
-						$isSozoku = true;
-						$page_id = '6475';
+					} else if ( is_page( '6315' ) ) {
+						$isJiko = true;
+						$page_id = '5987';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6380' ) ) {
-						$isSozoku = true;
-						$page_id = '6523';
+					} else if ( is_page( '6305' ) ) {
+						$isJiko = true;
+						$page_id = '5976';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6391' ) ) {
-						$isSozoku = true;
-						$page_id = '6525';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6382' ) ) {
-						$isSozoku = true;
-						$page_id = '6527';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6385' ) ) {
-						$isSozoku = true;
-						$page_id = '6535';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6387' ) ) {
-						$isSozoku = true;
-						$page_id = '6533';
-						include locate_template( './templates/page.php' );
+				
+				
 					
 
 
 					} else if ( is_page( 'cases' ) || is_page( 'voice' ) ) {
+						$is_tag = false;
 						$is_type = ( is_page( 'cases' ) ) ? 'cases' : 'voice';
+						$show_cat = ( is_page( 'cases' ) ) ? '89' : '125';
 						include locate_template( './templates/page--cases-voice.php' );
+					} else if ( is_page( 'cases/head' ) ) {
+						$is_tag = true;
+						$is_type = 'cases';
+						$show_cat = '111';
+						include locate_template( './templates/page--cases-voice.php' );
+						} else if ( is_page( 'cases/neck' ) ) {
+							$is_tag = true;
+							$is_type = 'cases';
+							$show_cat = '110';
+							include locate_template( './templates/page--cases-voice.php' );
+						} else if ( is_page( 'cases/spinal' ) ) {
+							$is_tag = true;
+							$is_type = 'cases';
+							$show_cat = '112';
+							include locate_template( './templates/page--cases-voice.php' );
+						} else if ( is_page( 'cases/shoulder' ) ) {
+							$is_tag = true;
+							$is_type = 'cases';
+							$show_cat = '113';
+							include locate_template( './templates/page--cases-voice.php' );
+						} else if ( is_page( 'cases/arm' ) ) {
+							$is_tag = true;
+							$is_type = 'cases';
+							$show_cat = '114';
+							include locate_template( './templates/page--cases-voice.php' );
+						} else if ( is_page( 'cases/pelvis' ) ) {
+							$is_tag = true;
+							$is_type = 'cases';
+							$show_cat = '115';
+							include locate_template( './templates/page--cases-voice.php' );
+						} else if ( is_page( 'cases/leg' ) ) {
+							$is_tag = true;
+							$is_type = 'cases';
+							$show_cat = '117';
+							include locate_template( './templates/page--cases-voice.php' );
+						} else if ( is_page( 'cases/knee' ) ) {
+							$is_tag = true;
+							$is_type = 'cases';
+							$show_cat = '116';
+							include locate_template( './templates/page--cases-voice.php' );
+						} else if ( is_page( 'cases/face' ) ) {
+							$is_tag = true;
+							$is_type = 'cases';
+							$show_cat = '118';
+							include locate_template( './templates/page--cases-voice.php' );
+						} else if ( is_page( 'cases/fatal-accident' ) ) {
+							$is_tag = true;
+							$is_type = 'cases';
+							$show_cat = '119';
+							include locate_template( './templates/page--cases-voice.php' );
+						} else if ( is_page( 'cases/jyudo_syogai' ) ) {
+							$is_tag = true;
+							$is_type = 'cases';
+							$show_cat = '364';
+							include locate_template( './templates/page--cases-voice.php' );
+						} else if ( is_page( 'cases/other' ) ) {
+							$is_tag = true;
+							$is_type = 'cases';
+							$show_cat = '120';
+							include locate_template( './templates/page--cases-voice.php' );
+
+
+
+
+
+
+
+
+
+
+
 
 					} else if ( is_page( 'members' ) ) {
 						get_template_part( './templates/page--members' );
