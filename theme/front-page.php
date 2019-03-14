@@ -75,17 +75,17 @@
 							<p class="text-right"><a href="<?php echo get_page_link( '5485' ); ?>" class="button">お客様の声を見る</a></p>
 							<h3>後遺障害など医学的研修会の実施</h3>
 							<p>交通事故は多くの場合、身体的傷害を伴うものです。その傷害の回復（治療）をどのようにするのか、その傷害がもたらす後遺障害はどうなるのかは、<u>被害者にとって一番の問題</u>と思います。被害者のそうした悩みに答え、最高の解決を得られるようにするため、私たちは<strong class="underline">医師による医学的知識の習得・研修</strong>も行っております。</p>
-							<p class="text-right"><a href="<?php echo get_page_link( '' ); ?>" class="button">交通事故（医療）研修の様子</a></p>
+							<p class="text-right"><a href="<?php echo get_page_link( '6305' ), '#jiko-training'; ?>" class="button">交通事故（医療）研修の様子</a></p>
 							<h3>交通事故チームによる専門性強化</h3>
 							<p>後遺障害の認定や事故の相手方の保険会社との交渉には、<u>高い専門性と経験が要求</u>されます。当事務所における<strong class="underline">広島最大級の解決事例データを集積・分析し、事務所全体で共有化し、依頼者に最も有利な解決を実現するために、弁護士５名・秘書５名（平成２７年末現在）からなる交通事故チームを結成</strong>しています。</p>
-							<p class="text-right"><a href="<?php echo get_page_link( '' ); ?>" class="button">交通事故チームリーダー弁護士からメッセージ</a></p>
+							<p class="text-right"><a href="<?php echo get_page_link( '6305' ); ?>" class="button">交通事故チームリーダー弁護士からメッセージ</a></p>
 							<h3>事故直後から治療・解決までサポート</h3>
 							<p><strong class="underline">交通事故に遭われた場合は、警察やご自身の加入する保険会社に連絡するとともに、直ちに弁護士に連絡</strong>していただきたいと思います。あなたは一人ではありません。私たち弁護士が、治療から解決まで寄り添います。後遺障害の認定を受ける前に弁護士に相談していただければ、認定に当たってのアドバイスを行い、場合によっては病院にも同行します。一旦認定された後遺障害を覆すのは難しい場合がありますので、その前にご相談ください。</p>
 							<h3>初回相談・着手金が無料</h3>
 							<p>当事務所では、被害者救済のために、<strong class="underline">交通事故に遭われた方の初回相談料は無料。着手金も無料</strong>としております（弁護士費用特約により保険会社から支払われる場合は別）。ご期待に応えられるようにするために、全力でご相談に応じます。ご依頼を受けた場合は、全力で被害者救済のために奮闘します。</p>
 				</div>
 
-				<p class="text-center contents--section_button" style="margin-top: 2rem"><a href="<?php echo get_page_link( '' ); ?>" class="button large"><?php NID_SVG::icon( 'list', array() ); ?>交通事故の基礎知識</a></p>
+				<p class="text-center contents--section_button" style="margin-top: 2rem"><a href="<?php echo get_page_link( '6298' ); ?>" class="button large"><?php NID_SVG::icon( 'list', array() ); ?>交通事故の基礎知識</a></p>
 
 
 			<section class="contents--section contents--section__service">

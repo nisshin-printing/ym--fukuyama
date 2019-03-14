@@ -27,8 +27,14 @@ if ( is_archive() || is_single() || is_home() ) {
 						$page_id = '5';
 						include locate_template( './templates/page.php' );
 					} else if ( is_page( 'jiko' ) && 'service' === is_parent_slug() ) {
+						while( have_posts() ) : the_post();
+							the_content();
+						endwhile;
 						$page_id = '1256';
 						include locate_template( './templates/page.php' );
+						while( have_posts() ) : the_post();
+							the_content();
+						endwhile;
 					} else if ( is_page( 'rikon' ) && 'service' === is_parent_slug() ) {
 						$page_id = '1265';
 						include locate_template( './templates/page.php' );
@@ -83,12 +89,8 @@ if ( is_archive() || is_single() || is_home() ) {
 
 
 					/**
-					 * 相続の基礎知識
+					 * 基礎知識
 					 */
-					} else if ( is_page( '6347' ) ) {
-						$isJiko = true;
-						$page_id = '6073';
-						include locate_template( './templates/page.php' );
 					} else if ( is_page( '6300' ) ) {
 						$isJiko = true;
 						$page_id = '6036';
@@ -96,10 +98,6 @@ if ( is_archive() || is_single() || is_home() ) {
 					} else if ( is_page( '6302' ) ) {
 						$isJiko = true;
 						$page_id = '5972';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '5979' ) ) {
-						$isJiko = true;
-						$page_id = '6307';
 						include locate_template( './templates/page.php' );
 					} else if ( is_page( '6309' ) ) {
 						$isJiko = true;
@@ -121,86 +119,23 @@ if ( is_archive() || is_single() || is_home() ) {
 						$isJiko = true;
 						$page_id = '6006';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6343' ) ) {
+					} else if ( is_page( '6339' ) ) {
 						$isJiko = true;
-						$page_id = '5994';
+						$page_id = '5996';
 						include locate_template( './templates/page.php' );
 					} else if ( is_page( '6341' ) ) {
 						$isJiko = true;
-						$page_id = '5996';
+						$page_id = '5994';
+						include locate_template( './templates/page.php' );
+					} else if ( is_page( '6343' ) ) {
+						$isJiko = true;
+						$page_id = '5998';
 						include locate_template( './templates/page.php' );
 					} else if ( is_page( '6345' ) ) {
 						$isJiko = true;
 						$page_id = '6034';
 						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6339' ) ) {
-						$isJiko = true;
-						$page_id = '5998';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6317' ) ) {
-						$isJiko = true;
-						$page_id = '6012';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6325' ) ) {
-						$isJiko = true;
-						$page_id = '6018';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6327' ) ) {
-						$isJiko = true;
-						$page_id = '6022';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6333' ) ) {
-						$isJiko = true;
-						$page_id = '6030';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6329' ) ) {
-						$isJiko = true;
-						$page_id = '6025';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6331' ) ) {
-						$isJiko = true;
-						$page_id = '6028';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6323' ) ) {
-						$isJiko = true;
-						$page_id = '6020';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6335' ) ) {
-						$isJiko = true;
-						$page_id = '6032';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6319' ) ) {
-						$isJiko = true;
-						$page_id = '6014';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6321' ) ) {
-						$isJiko = true;
-						$page_id = '6016';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6307' ) ) {
-						$isJiko = true;
-						$page_id = '5979';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6309' ) ) {
-						$isJiko = true;
-						$page_id = '5981';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6311' ) ) {
-						$isJiko = true;
-						$page_id = '5983';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6313' ) ) {
-						$isJiko = true;
-						$page_id = '5985';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6315' ) ) {
-						$isJiko = true;
-						$page_id = '5987';
-						include locate_template( './templates/page.php' );
-					} else if ( is_page( '6305' ) ) {
-						$isJiko = true;
-						$page_id = '5976';
-						include locate_template( './templates/page.php' );
+					
 				
 				
 					
