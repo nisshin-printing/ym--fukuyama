@@ -1,6 +1,5 @@
 <?php
-	$is_cat = ( $is_tag ) ? 'tag' : 'category';
-	$url = "https://www.law-yamashita.com/wp-json/wp/v2/{$is_type}?_embed&per_page=20&order=desc&orderby=date&{$is_type}-{$is_cat}={$show_cat}";
+	$url = "https://www.law-yamashita.com/wp-json/wp/v2/{$is_type}?_embed&per_page=20&order=desc&orderby=date";
 	$json = file_get_contents( $url );
 	$arr_json = json_decode( $json, true );
 

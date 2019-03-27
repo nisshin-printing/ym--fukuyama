@@ -97,6 +97,10 @@ if ( is_archive() || is_single() || is_home() ) {
 						include locate_template( './templates/page.php' );
 					} else if ( is_page( '6302' ) ) {
 						$isJiko = true;
+						$page_id = '5976';
+						include locate_template( './templates/page.php' );
+					} else if ( is_page( '6305' ) ) {
+						$isJiko = true;
 						$page_id = '5972';
 						include locate_template( './templates/page.php' );
 					} else if ( is_page( '6309' ) ) {
@@ -114,6 +118,10 @@ if ( is_archive() || is_single() || is_home() ) {
 					} else if ( is_page( '6315' ) ) {
 						$isJiko = true;
 						$page_id = '5987';
+						include locate_template( './templates/page.php' );
+					} else if ( is_page( '6317' ) ) {
+						$isJiko = true;
+						$page_id = '6012';
 						include locate_template( './templates/page.php' );
 					} else if ( is_page( '6337' ) ) {
 						$isJiko = true;
@@ -142,9 +150,6 @@ if ( is_archive() || is_single() || is_home() ) {
 
 
 					} else if ( is_page( 'cases' ) || is_page( 'voice' ) ) {
-						$is_tag = false;
-						$is_type = ( is_page( 'cases' ) ) ? 'cases' : 'voice';
-						$show_cat = ( is_page( 'cases' ) ) ? '89' : '125';
 						include locate_template( './templates/page--cases-voice.php' );
 					} else if ( is_page( 'cases/head' ) ) {
 						$is_tag = true;
