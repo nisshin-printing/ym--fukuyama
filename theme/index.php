@@ -150,6 +150,7 @@ if ( is_archive() || is_single() || is_home() ) {
 
 
 					} else if ( is_page( 'cases' ) || is_page( 'voice' ) ) {
+						$is_type = ( is_page( 'cases' ) ) ? 'cases' : 'voice';
 						include locate_template( './templates/page--cases-voice.php' );
 					} else if ( is_page( 'cases/head' ) ) {
 						$is_tag = true;
