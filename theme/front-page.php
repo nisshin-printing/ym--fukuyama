@@ -57,7 +57,7 @@
 					<div class="column">
 						<p class="text-center"><img src="//www.law-yamashita.com/wp-content/themes/ym-home/assets/img/access/map--fukuyama.png" alt="山下江法律事務所福山支部までのアクセス方法"></p>
 						<p class="text-center"><a class="button link-external" href="https://goo.gl/maps/BD1h4PY4Fmr" title="Googleマップで見る" target="_blank" rel="nofollow">Googleマップで見る</a>　<a href="https://www.law-yamashita.com/downloads/access/print--fukuyama.pdf" class="button" target="_blank">印刷用PDF</a></p>
-						<p>〒720-0067　広島県福山市西町2-10-1　福山商工会議所ビル５階<br>TEL： 084-993-9041　FAX： 084-993-9042<br>営業時間：　9：00～18：00</p>
+						<p>〒720-0067　広島県福山市西町2-10-1　福山商工会議所ビル５階<br>TEL： 084-993-9041　FAX： 084-993-9042<br>営業時間：　平日9：00～18：00</p>
 						<p><b>＜福山商工会議所ビル有料駐車場の料金＞</b><br>初めの30分無料 1時間300円<br>その後30分ごと100円</p>
 					</div>
 				</div>
